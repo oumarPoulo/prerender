@@ -422,6 +422,20 @@ Caches pages in a levelDB database. Available at [prerender-level-cache](https:/
 
 Create access log file for prerendered requests. Available at [prerender-access-log](https://github.com/unDemian/prerender-access-log) by [@unDemian](https://github.com/unDemian)
 
+## Docker
+ ### Run docker container
+
+ ```sh
+ docker run -e PORT=3000 -p 3000:3000 oumarpoulo/prerender
+ ```
+
+ ### Build docker image
+
+ ```sh
+ git clone https://github.com/oumarPoulo/prerender
+ cd prerender
+ docker build -t oumarpoulo/prerender .
+ ```
 
 ## License
 
